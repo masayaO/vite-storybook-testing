@@ -10,10 +10,10 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "test:storybook": "test-storybook --url http://localhost:6006",
+    "storybook:build": "storybook build",
     "storybook:serve": "npx http-server storybook-static -a localhost -p 6006 -s",
     "storybook:test": "npx wait-on http://localhost:6006 && npm run test:storybook",
-    "storybook:ci": "npx concurrently -k -s first \"npm run storybook:serve\" \"npm run storybook:test\"",
-    "build-storybook": "storybook build"
+    "storybook:ci": "npx concurrently -k -s first \"npm run storybook:serve\" \"npm run storybook:test\""
   },
   "dependencies": {
     "react": "^18.2.0",
