@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "test-storybook": "test-storybook",
+    "test-storybook:ci": "test-storybook --maxWorkers=2",
     "build-storybook": "storybook build"
   },
   "dependencies": {
