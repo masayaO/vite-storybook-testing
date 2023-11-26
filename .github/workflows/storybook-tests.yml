@@ -10,7 +10,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - name: Install dependencies
-        run: npm
+        run: npm install
       - name: Install Playwright
         run: npx playwright install --with-deps
       - name: Build Storybook
