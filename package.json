@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "test-storybook": "test-storybook --url http://localhost:6006",
+    "test-storybook": "test-storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
